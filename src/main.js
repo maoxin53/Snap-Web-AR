@@ -13,7 +13,7 @@ import {
   document.getElementById("canvas").replaceWith(session.output.live);
 
   const { lenses } = await cameraKit.lensRepository.loadLensGroups([
-    "2a3368ce-84a3-45de-9abb-603b948e02ed",
+    "bf043f2c-d323-4c49-b19d-65b8f6059f95",
   ]);
   session.applyLens(lenses[0]);
 
