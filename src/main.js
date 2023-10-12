@@ -20,8 +20,8 @@ import {
   let mediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
 
   const source = createMediaStreamSource(mediaStream, {
-    transform: Transform2D.MirrorX,
-    cameraType: "front",
+    // transform: Transform2D.MirrorX,
+    cameraType: "back",
   });
 
   await session.setSource(source);
