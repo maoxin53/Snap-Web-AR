@@ -1,2 +1,1 @@
-# Snap-Web-AR
- 
+# camera_kit_demo
