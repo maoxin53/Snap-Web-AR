@@ -20,7 +20,7 @@ import {
   let mediaStream = await navigator.mediaDevices.getUserMedia({ video: true });
 
   const source = createMediaStreamSource(mediaStream, {
-    // transform: Transform2D.MirrorX,
+    // transform: Transform2D.MirrorX, #for front cam
     cameraType: "back",
   });
 
